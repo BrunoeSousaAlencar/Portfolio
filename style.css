@@ -70,6 +70,7 @@ nav .menu-btn i{
 main{
     display: flex;
     justify-content: space-between;
+    width: 100vw;
 }
 
 main div{
@@ -81,10 +82,18 @@ main div{
 main h1{
     color: var(--blue1);
     text-decoration: none;
+    width: 100vw;
+    margin-left: -80px;
+    font-size: 39px;
+}
+
+h1 div span{
+    color: var(--blue2);
 }
 
 main p{
     margin-top: 10px;
+    margin-right: 20px;
     text-align: justify;
     color: #00747C;
     font-weight: 500;

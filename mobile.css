@@ -60,12 +60,18 @@
 
     main div{
         width: 80vw;
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: 0px;
+    }
+
+    main h1{
+        margin-left: 0px;
+        font-size: 25px;
     }
     
     main p{
         margin-top: 10px;
+        margin-right: 0;
     }
     
     main img{
