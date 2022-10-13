@@ -27,7 +27,6 @@ nav{
     justify-content: space-between;
     padding: 0 50px 0 100px;
     flex-wrap: wrap;
-    position: fixed;
 }
 
 nav .logo{
@@ -66,4 +65,34 @@ nav .menu-btn i{
     color: var(--white);
     cursor: pointer;
     display: none;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+main div{
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+main h1{
+    color: var(--blue1);
+    text-decoration: none;
+}
+
+main p{
+    margin-top: 10px;
+    text-align: justify;
+    color: #00747C;
+    font-weight: 500;
+}
+
+main img{
+    width: 700px;
+    height: 500px;
+    min-width: 00px;
+    margin-top: 40px;
 }
