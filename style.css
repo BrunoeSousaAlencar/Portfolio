@@ -29,10 +29,10 @@ nav{
     flex-wrap: wrap;
 }
 
-nav .logo{
-    color: var(--white);
-    font-size: 35px;
-    font-weight: 600;
+nav .logo img{
+    width: 100px;
+    position: relative;
+    top: 4px;
 }
 
 nav ul{
@@ -70,28 +70,29 @@ nav .menu-btn i{
 main{
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 90vw;
 }
 
 main div{
     width: 50%;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 80px;
 }
 
 main h1{
     color: var(--blue1);
     text-decoration: none;
-    width: 100vw;
+    width: 90vw;
     margin-left: -80px;
     font-size: 39px;
 }
 
 h1 div span{
-    color: var(--blue2);
+    color: var(--blue1);
 }
 
 main p{
+    width: 40vw;
     margin-top: 10px;
     margin-right: 20px;
     text-align: justify;
