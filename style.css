@@ -5,8 +5,8 @@
 :root{
     --white: #F2F2F2;
     --grey:  #878787;
-    --black: #202022;
-    --blue1: #00BBC9;
+    --black: #303030;
+    --blue1: #00bbc9;
     --blue2: #00747C;
     
 }
@@ -17,6 +17,7 @@
    box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
 }
+
 
 nav{
     display: flex;
