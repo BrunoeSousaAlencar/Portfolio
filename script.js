@@ -1,3 +1,5 @@
+
+//menu
 var ul = document.querySelector('nav ul')
 var menuBtn = document.querySelector('.menu-btn i');
 
@@ -9,6 +11,7 @@ function menuShow(){
     }
 }
 
+// efeito de digitão
 document.addEventListener("DOMContentLoaded", () => {
     new TypeIt(".animated", {
         speed: 200,
