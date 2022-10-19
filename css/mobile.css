@@ -74,10 +74,11 @@
     }
     
     #img-principal{
-        margin-top: 0px;
-        width: 70vw;
+        width: 95vw;
         height: 50vh;
-        position: relative;
-        right: 0px;
+        background-image: url(../img/www-amico\ \(1\).png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
     }
 }
