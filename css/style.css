@@ -69,43 +69,37 @@ nav .menu-btn i{
 }
 
 main{
+    background-color: #303030;
+}
+
+#container1{
+    height: 90vh;
     display: flex;
     justify-content: space-between;
-    width: 90vw;
 }
 
-main div{
-    width: 50%;
+#container1 p{
+    width: 35vw;
+    color: var(--blue2);
+}
+
+#texto-principal{
+    padding: 80px 0 80px 80px;
+    
+}
+
+#texto-animado{
+    color: var(--blue1);
+}
+
+#img-principal{
     margin-top: 50px;
-    margin-left: 80px;
+    width: 50vw;
+    height: 80vh;
+    position: relative;
+    right: 50px;
 }
 
-main h1{
-    color: var(--blue1);
-    text-decoration: none;
-    width: 90vw;
-    margin-left: -80px;
-    font-size: 39px;
-}
 
-h1 div span{
-    color: var(--blue1);
-}
-
-main p{
-    width: 40vw;
-    margin-top: 10px;
-    margin-right: 20px;
-    text-align: justify;
-    color: #00747C;
-    font-weight: 500;
-}
-
-main img{
-    width: 700px;
-    height: 500px;
-    min-width: 00px;
-    margin-top: 40px;
-}
 
 

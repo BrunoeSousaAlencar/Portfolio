@@ -52,34 +52,32 @@
         color: var(--blue2);
     }
 
-    main{
+    #container1{
+        height: 90vh;
         display: grid;
         place-items: center;
         justify-content: center;
     }
-
-    main div{
+    
+    #container1 p{
         width: 80vw;
-        margin-top: 30px;
-        margin-left: 15px;
+        color: var(--blue2);
     }
 
-    main h1{
-        margin-left: 0px;
+    #texto-animado{
         font-size: 25px;
     }
     
-    main p{
-        width: 80vw;
-        margin-top: 10px;
-        margin-right: 0;
-        margin-left: 15px;
+    #texto-principal{
+        padding: 0; 
+        margin-top: 40px;
     }
     
-    main img{
-        width: 95vw;
-        height: 60vw;
-        margin-top: 20px;
-        margin-left: 30px;
+    #img-principal{
+        margin-top: 0px;
+        width: 70vw;
+        height: 50vh;
+        position: relative;
+        right: 0px;
     }
 }
