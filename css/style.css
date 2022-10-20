@@ -123,6 +123,7 @@ main{
 #links a img:hover{
     background-color: #00bbc9;
     border-radius: 5px;
+    transition: .5s;
 }
 
 #container2{
