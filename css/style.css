@@ -95,6 +95,7 @@ main{
 
 #texto-animado{
     color: var(--blue1);
+    font-size: 50px;
 }
 
 #img-principal{
@@ -127,8 +128,46 @@ main{
 }
 
 #container2{
-    background-color: blueviolet;
+    background-color: var(--blue1);
     width: 100%;
     height: 100vh;
 }
 
+#sobre{
+    overflow: hidden;
+    background-color: #00747C;
+    display: flex;
+    width: 70vw;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+#ilustracao-sp{
+    justify-content: space-around;
+}
+
+#ilustracao-sp img{
+   width: 400px;
+}
+
+#texto-sobre{
+    background-repeat: no-repeat;
+    width: 500px;
+    color: var(--white);
+    position: relative;
+    top: 60px;
+}
+
+#texto-sobre p{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#icone-local{
+    width: 20px;
+    
+}
