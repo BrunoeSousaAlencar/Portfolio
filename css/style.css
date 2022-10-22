@@ -148,36 +148,8 @@ main{
     border-radius: 10px;
 }
 
-#ilustracao-sp{
-    justify-content: space-between;
-}
-
 #ilustracao-sp img{
     width: 400px;
-}
-
-#local{
-    display: flex;
-    align-items: center;
-    position: relative;
-    right: 4px;
-}
-
-#local h3{
-    margin-left: 5px;
-}
-
-#texto-sobre{
-    background-repeat: no-repeat;
-    width: 500px;
-    color: var(--white);
-    position: relative;
-    top: 60px;
-}
-
-#texto-sobre p{
-    margin-top: 10px;
-    margin-right: 30px;
 }
 
 #icone-local{
