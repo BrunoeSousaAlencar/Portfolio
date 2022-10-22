@@ -84,5 +84,27 @@
 }
 
 @media (max-width: 1050px){
-    
+
+    #container2{
+        background-color: var(--blue1);
+        width: 100%;
+        height: 100vh;
+    }
+
+    #sobre{
+        display: grid;
+        place-items: center;
+        height: 600px;
+    }
+
+    #texto-sobre{
+        color: var(--white);
+        margin-top: -100px;
+        display: grid;
+        place-items: center;
+    }
+
+    #ilustracao-sp img{
+        width: 40vw;
+    }
 }

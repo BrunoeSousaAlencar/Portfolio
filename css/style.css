@@ -135,7 +135,7 @@ main{
 }
 
 #sobre{
-    box-shadow: 0px 0px 5px var(--white);
+    box-shadow: 0px 0px 9px 2px #67e8f1;
     overflow: hidden;
     background-color: #00747C;
     display: flex;
@@ -148,10 +148,39 @@ main{
     border-radius: 10px;
 }
 
+#sobre:hover{
+    box-shadow: 0px 0px 10px 10px #67e8f1;
+}
+
 #ilustracao-sp img{
     width: 400px;
 }
 
+#texto-sobre{
+    color: var(--white);
+    margin-top: 60px;
+}
+
+#texto-sobre p{
+    margin-top: 10px;
+    width: 90%;
+}
+
+#local{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 4px;
+}
+
+#local h3{
+    position: relative;
+    left: 5px;
+}
+
+
 #icone-local{
     width: 20px;
 }
+
+
