@@ -122,9 +122,10 @@ main{
 }
 
 #links a img:hover{
-    background-color: #00bbc9;
+    background-color: #9beaf0;
+    border: 1px solid var(--blue1);
     border-radius: 5px;
-    transition: .5s;
+    transition: .1s;
 }
 
 #container2{
@@ -157,7 +158,6 @@ main{
 
 #local{
     display: flex;
-    justify-content: s;
     align-items: center;
     position: relative;
     right: 4px;
