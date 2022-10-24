@@ -135,7 +135,10 @@
 
 @media (max-width: 450px){
     .site{
-        height: 60vh;
+        height: 65vh;
     }
 
+    #projetos{
+        height: 210vh;
+    }
 }
