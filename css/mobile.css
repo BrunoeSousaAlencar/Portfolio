@@ -52,6 +52,7 @@
         color: var(--blue2);
     }
 
+    /*------CONTAINER1--------*/
     #container1{
         height: 90vh;
         display: grid;
@@ -59,7 +60,7 @@
         justify-content: center;
     }
     
-    #container1 p{
+    #container1 p {
         width: 80vw;
         color: var(--blue2);
     }
@@ -82,11 +83,11 @@
         background-size: contain;
     }
 
-    
 }
 
 @media (max-width: 1050px){
 
+    /*------CONTAINER2--------*/
     #container2{
         background-color: var(--blue1);
         width: 100%;
@@ -111,34 +112,33 @@
     }
 }
 
-@media (max-width: 750px){
+@media (max-width: 920px){
 
-    #container3{
-        background-color: #455a64;
-        width: 100%;
-        height: 260vh;
-    }
+    /*------CONTAINER2--------*/
 
     #projetos{
-        height: 250vh;
+        overflow: auto;
     }
-
     #sites{
         display: block;
     }
 
     .site{
-        width: 78vw;
-        height: 80vh;
+        width: 97%;
+        height: 85vh;
     }
 }
 
-@media (max-width: 450px){
+@media (max-width: 520px){
+    #projetos{
+        overflow: auto;
+    }
+
     .site{
         height: 65vh;
     }
-
-    #projetos{
-        height: 210vh;
-    }
 }
+
+
+
+
