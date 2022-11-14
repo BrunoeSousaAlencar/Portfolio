@@ -59,11 +59,9 @@
     left: 5px;
 }
 
-
 #icone-local{
     width: 20px;
     background-color: var(--blue2);
     padding: 2px;
     border-radius: 10px;
-
 }

@@ -18,6 +18,10 @@
    font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: var(--white);
+}
+
 
 nav{
     display: flex;

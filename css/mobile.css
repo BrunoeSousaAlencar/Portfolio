@@ -115,21 +115,24 @@
     /*------CONTAINER2--------*/
 
     #projetos{
-        overflow: auto;
+        background-color: #F2F2F2;
     }
+
     #sites{
         display: block;
+        margin-bottom: 50px;
     }
 
     .site{
         width: 97%;
         height: 85vh;
     }
+
 }
 
 @media (max-width: 520px){
     #projetos{
-        overflow: auto;
+        height: 100vh;
     }
 
     .site{
