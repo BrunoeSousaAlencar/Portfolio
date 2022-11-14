@@ -89,7 +89,6 @@
 
     /*------CONTAINER2--------*/
     #container2{
-        background-color: var(--blue1);
         width: 100%;
         height: 100vh;
     }
@@ -101,7 +100,6 @@
     }
 
     #texto-sobre{
-        color: var(--white);
         margin-top: -100px;
         display: grid;
         place-items: center;

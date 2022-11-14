@@ -3,18 +3,16 @@
     --grey:  #878787;
     --black: #202022;
     --blue1: #00BBC9;
-    --blue2: #00747C;
-    
+    --blue2: #00747C;  
 }
 
 #container3{
-    background-color: #455a64;
+    background-color: var(--white);
     width: 100%;
     height: 100vh;
 }
 
 #projetos{
-    border: 5px solid var(--blue2);
     background-color: #00BBC9;
     border-radius: 5px;
     width: 90vw;
