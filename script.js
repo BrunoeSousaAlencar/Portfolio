@@ -1,3 +1,5 @@
+// animação de menu mobele
+
 const burgur = document.querySelector("#burger");
 const menuMobile = document.querySelector("#menu-mobile");
 
@@ -5,45 +7,6 @@ burgur.addEventListener('click', () => {
     menuMobile.classList.toggle('active');
     burgur.classList.toggle('active');
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // efeito de digitão
@@ -55,4 +18,3 @@ document.addEventListener("DOMContentLoaded", () => {
     .go()
 });
 
-// dark mode

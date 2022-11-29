@@ -30,6 +30,7 @@
 
 #texto-principal p{
     width: 30vw;
+    font-weight: 500;
 }
 
 #texto-animado{
@@ -44,3 +45,4 @@
 #img-principal img{
     width: 45vw;
 }
+
