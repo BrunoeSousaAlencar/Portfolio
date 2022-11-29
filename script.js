@@ -1,15 +1,50 @@
+const burgur = document.querySelector("#burger");
+const menuMobile = document.querySelector("#menu-mobile");
 
-//menu
-var ul = document.querySelector('nav ul')
-var menuBtn = document.querySelector('.menu-btn i');
+burgur.addEventListener('click', () => {
+    menuMobile.classList.toggle('active');
+    burgur.classList.toggle('active');
+})
 
-function menuShow(){
-    if(ul.classList.contains('open')) {
-        ul.classList.remove('open');
-    }else{
-        ul.classList.add('open');
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // efeito de digitão
 document.addEventListener("DOMContentLoaded", () => {

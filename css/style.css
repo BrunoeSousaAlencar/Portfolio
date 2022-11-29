@@ -3,12 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --white: #F2F2F2;
-    --grey:  #878787;
-    --black: #303030;
-    --blue1: #00bbc9;
-    --blue2: #00747C;
-    
+    --color1:#0D0D0D;
+    --color2:#F2F2F2;
+    --color3:#F24405;  
 }
 
 *{
@@ -18,62 +15,8 @@
    font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background-color: var(--white);
-}
-
-
-nav{
-    display: flex;
-    height: 80px;
-    width: 100%;
-    background-color: var(--blue2);
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px 0 100px;
-    flex-wrap: wrap;
-}
-
-nav .logo img{
-    width: 100px;
-    position: relative;
-    top: 4px;
-}
-
-nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-nav ul li{
-    margin: 0 5px ; 
-}
-
-nav ul li a{
-    color: var(--white);
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    transition: all 0.3s ease ;
-}
-
-nav ul li a.active,
-nav ul li a:hover{
-    background: var(--blue1);
-}
-
-nav .menu-btn i{
-    color: var(--white);
-    cursor: pointer;
-    display: none;
-}
-
 main{
-    background-color: var(--white);
+    background-color: var(--color2);
 }
 
 #container1{
@@ -88,8 +31,7 @@ main{
 }
 
 #texto-principal{
-    padding: 100px 0 80px 80px;
-    
+    padding: 100px 0 80px 80px; 
 }
 
 #texto-principal  a{
@@ -103,7 +45,6 @@ main{
 }
 
 #img-principal{
-    background-image: url(../img/www-amico\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -131,7 +72,5 @@ main{
     border-radius: 5px;
     transition: .1s;
 }
-
-
 
 
