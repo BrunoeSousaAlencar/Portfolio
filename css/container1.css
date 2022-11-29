@@ -77,5 +77,6 @@
 
     #img-principal img{
         width: 75vw;
+        margin-top: 50px;
     }
 }
