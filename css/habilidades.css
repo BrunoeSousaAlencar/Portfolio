@@ -1,0 +1,163 @@
+:root{
+    --color1:#0D0D0D;
+    --color2:#F2F2F2;
+    --color3:#F24405;
+    --color4:#5a5a5a;
+}
+
+#habilidades{
+    display: grid;
+    place-items: center;
+    transition: all .5s ease;
+}
+
+#habilidades h2{
+    color: var(--color2);
+    background: var(--color3);
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: relative;
+    border: 3px solid var(--color2);
+    top: 80px;
+}
+
+section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    background-color: var(--color4);
+}
+
+.face{
+    width: 200px;
+    height: 250px;
+    perspective: 700px;
+    margin: 80px 40px;
+    cursor: pointer;
+}
+
+.front, .back{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+#html-f{
+    background-color: #ff3c00;
+}
+
+#html-b{
+    background-color: #FF5722;
+}
+
+#css-f{
+    background-color: #0583F2;
+}
+
+#css-b{
+    background-color: #22A2F2;
+}
+
+#js-f{
+    background-color: #e9c200;
+}
+
+#js-b{
+    background-color: #F2CB05;
+}
+
+.front{
+    background-color: blue;
+    z-index: 1;
+}
+
+.front img{
+    position: relative;
+    width: 150px;
+    display: grid;
+    place-items: center;
+}
+
+.back{
+    background-color: brown;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+.face:hover .front{
+    transform: rotateY(180deg);
+}
+
+.face:hover .back{
+    transform: rotateY(0);
+    z-index: 2;
+}
+
+@media (max-width:900px){
+
+    section{
+        height: 350px;
+    }
+
+    .face{
+        width: 150px;
+        height: 200px;
+        margin: 80px 20px;
+    }
+
+    .front img{
+        position: relative;
+        width: 120px;
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media (max-width:600px){
+
+    .face{
+        width: 25vw;
+        height: 200px;
+        margin: 80px 10px;
+    }
+
+    .front img{
+        position: relative;
+        width: 20vw;
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media (max-width:500px){
+
+    section{
+        display: grid;
+        height: 450px;
+
+    }
+
+    .face{
+        width: 80vw;
+        height: 100px;
+        margin: 0 10px;
+    }
+
+    .front img{
+        position: relative;
+        width: 15vw;
+        display: grid;
+        place-items: center;
+    }
+
+    #html{
+        margin-top: 50px;
+    }
+}
