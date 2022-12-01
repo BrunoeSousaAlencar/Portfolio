@@ -4,7 +4,7 @@
 
 :root{
     --color1:#0D0D0D;
-    --color2:#e4e4e4;
+    --color2:#f2f2f2;
     --color3:#F24405;  
     --color4:#5a5a5a;
 }
@@ -17,6 +17,9 @@
    transition: all .2s ease;
 }
 
+body{
+    background: #e0e0e0;
+}
 
 #container1{
     display: flex;
