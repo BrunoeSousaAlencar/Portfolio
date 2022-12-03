@@ -8,6 +8,7 @@
 #habilidades{
     display: grid;
     place-items: center;
+    padding-top: 80px;
     transition: all .5s ease;
 }
 
@@ -19,7 +20,7 @@
     text-transform: uppercase;
     position: relative;
     border: 3px solid #e0e0e0;
-    top: 80px;
+    top: 30px;
 }
 
 section{
@@ -27,7 +28,6 @@ section{
     height: 400px;
     display: flex;
     justify-content: center;
-    margin: 50px auto;
     background-color: var(--color4);
 }
 
