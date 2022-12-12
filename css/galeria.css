@@ -27,11 +27,16 @@
 }
 
 .caixas{
-    background-color: #F24405;
+    background-color: var(--color3);
+    background-size: cover;
     width: 200px;
     height: 140px; 
     margin: 0 20px;
-    border-radius: 10px;
+    border-radius: 13px;
+}
+
+#primeira-caixa{
+    background-image: url(../img/novo-site.png);
 }
 
 .breve{
@@ -44,11 +49,15 @@
     color: var(--color1);
 }
 
-.texto p{
-    display: none;
-    width: 500px;
+.nome-projeto{
     color: var(--color4);
 }
+
+.texto img{
+    width: 20px;
+}
+
+
 
 .links{
     display: flex;
@@ -78,9 +87,18 @@
 
 @media (max-width:700px){
 
+    .projeto{
+        display: flex;
+        margin: 20px 0px;
+    }
+
+    .projeto{
+        display: grid;
+    }
+
     .caixas{
         height: 150px; 
-        width: 170px;
+        width: 200px;
     }
 
     .links{
@@ -94,6 +112,10 @@
 
     .breve{
         top: 60px;
+    }
+
+    .texto h4{
+        margin: auto;
     }
 }
 
