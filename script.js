@@ -1,4 +1,4 @@
-// animação de menu mobele
+// animação de menu mobile
 
 const burgur = document.querySelector("#burger");
 const menuMobile = document.querySelector("#menu-mobile");
@@ -9,7 +9,8 @@ burgur.addEventListener('click', () => {
 })
 
 
-// efeito de digitão
+// efeito de digitação
+
 document.addEventListener("DOMContentLoaded", () => {
     new TypeIt(".animated", {
         speed: 200,
