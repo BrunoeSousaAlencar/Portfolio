@@ -36,7 +36,6 @@ section{
     height: 250px;
     perspective: 700px;
     margin: 80px 40px;
-    cursor: pointer;
 }
 
 .front, .back{
